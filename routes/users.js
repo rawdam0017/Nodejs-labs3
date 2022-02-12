@@ -10,4 +10,4 @@ router.get('/:id', (req, res, next) => {
     res.json({ user: req.params.id })
 })
 
-module.exports = router;
+module.exports = router;  
